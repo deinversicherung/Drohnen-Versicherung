@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="index,follow" />
+
+  <title>Drohnen-Versicherung in Deutschland: Was Betreiber wissen sollten</title>
+  <meta name="description" content="Bài đăng (tiếng Đức) giải thích các điểm chính về bảo hiểm drone tại Đức: nghĩa vụ pháp lý, rủi ro, khác biệt so với privathaftpflicht, chi phí và lưu ý vận hành." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Drohnen-Versicherung in Deutschland: Was Betreiber wissen sollten" />
+  <meta property="og:description" content="Überblick: Versicherungspflicht, typische Risiken, Abgrenzung zur Privathaftpflicht, Kostenfaktoren und Praxishinweise." />
+  <meta property="og:type" content="article" />
+  <meta property="og:locale" content="de_DE" />
+
+  <!-- Basic, clean styling -->
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f1a2f;
+      --text:#e8eefc;
+      --muted:#b9c4e6;
+      --accent:#7aa2ff;
+      --border:rgba(255,255,255,.10);
+      --shadow:0 12px 40px rgba(0,0,0,.35);
+      --radius:18px;
+      --max:860px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      background: radial-gradient(1200px 600px at 15% 10%, rgba(122,162,255,.20), transparent 55%),
+                  radial-gradient(900px 500px at 85% 20%, rgba(162,255,210,.12), transparent 60%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{
+      padding:56px 20px 18px;
+    }
+    .wrap{max-width:var(--max); margin:0 auto;}
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:10px 14px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background:rgba(255,255,255,.04);
+      color:var(--muted);
+      font-size:14px;
+    }
+    h1{
+      margin:18px 0 10px;
+      font-size: clamp(28px, 4vw, 40px);
+      letter-spacing:-0.02em;
+      line-height:1.15;
+    }
+    .sub{
+      margin:0;
+      color:var(--muted);
+      font-size:16px;
+      max-width:70ch;
+    }
+    main{
+      padding:18px 20px 64px;
+    }
+    article{
+      background:rgba(255,255,255,.03);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:26px 22px;
+    }
+    article h2{
+      margin:26px 0 10px;
+      font-size:22px;
+      letter-spacing:-0.01em;
+    }
+    article p{margin:10px 0}
+    ul{margin:10px 0 10px 20px}
+    li{margin:6px 0}
+    hr{
+      border:none;
+      border-top:1px solid var(--border);
+      margin:24px 0;
+    }
+    .meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 14px;
+      margin-top:16px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    .meta span{
+      padding:8px 10px;
+      border:1px solid var(--border);
+      border-radius:999px;
+      background:rgba(255,255,255,.03);
+    }
+    footer{
+      padding:24px 20px 44px;
+      color:var(--muted);
+      text-align:center;
+      font-size:13px;
+    }
+    .btnrow{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    button{
+      appearance:none;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.04);
+      color:var(--text);
+      padding:10px 14px;
+      border-radius:12px;
+      cursor:pointer;
+      font-size:14px;
+    }
+    button:hover{border-color:rgba(122,162,255,.55)}
+    .note{
+      margin-top:16px;
+      padding:14px 14px;
+      border-left:3px solid rgba(122,162,255,.75);
+      background:rgba(122,162,255,.08);
+      border-radius:12px;
+      color:var(--muted);
+      font-size:14px;
+    }
+  </style>
+
+  <!-- Simple schema -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Article",
+    "headline":"Drohnen-Versicherung in Deutschland: Was Betreiber wissen sollten",
+    "inLanguage":"de",
+    "author":{"@type":"Person","name":"Felix Meyer"},
+    "datePublished":"2025-12-29",
+    "description":"Überblick zu Versicherungspflicht, Risiken, Privathaftpflicht-Abgrenzung, Kostenfaktoren und Praxishinweisen für Drohnenbetreiber in Deutschland."
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="wrap">
+      <div class="badge" aria-label="page badge">
+        <strong>Blog</strong>
+        <span>GitHub Pages</span>
+        <span>DE</span>
+      </div>
+
+      <h1>Drohnen-Versicherung in Deutschland: Was Betreiber wissen sollten</h1>
+      <p class="sub">
+        Drohnen sind längst mehr als ein Freizeit-Gadget. Wer sie im öffentlichen Raum fliegt, trägt Verantwortung
+        und muss rechtliche Vorgaben einhalten. Ein passender Versicherungsschutz ist dabei ein zentraler Baustein.
+      </p>
+
+      <div class="meta" role="contentinfo" aria-label="article metadata">
+        <span>Datum: 29.12.2025</span>
+        <span>Kategorie: Versicherung</span>
+        <span>Thema: Drohne</span>
+      </div>
+
+      <div class="btnrow">
+        <button type="button" onclick="window.print()">In PDF drucken</button>
+        <button type="button" onclick="copyLink()">Link kopieren</button>
+      </div>
+
+      <div class="note" id="copyNote" style="display:none;">
+        Link đã được copy vào clipboard.
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <article>
+        <p>
+          Drohnen haben sich in den letzten Jahren stark verbreitet. Sie werden nicht nur für Freizeitflüge,
+          sondern auch für Foto- und Videoaufnahmen, Inspektionen oder kleinere gewerbliche Tätigkeiten eingesetzt.
+          Trotz kompakter Bauweise können Drohnen bei Zwischenfällen Personen und Sachwerte gefährden.
+          Genau deshalb ist das Thema Drohnen-Versicherung für Betreiber in Deutschland besonders relevant.
+        </p>
+
+        <h2>Gesetzliche Versicherungspflicht</h2>
+        <p>
+          In Deutschland besteht für Drohnen eine Versicherungspflicht. Betreiber haften für Schäden,
+          die durch den Drohnenbetrieb entstehen. Diese Pflicht gilt unabhängig davon, ob die Drohne privat
+          oder gewerblich geflogen wird. Ohne gültige Haftpflichtversicherung ist der Betrieb rechtlich nicht zulässig.
+        </p>
+        <p>
+          Grundlage ist die sogenannte Gefährdungshaftung: Der Halter kann auch dann verantwortlich sein,
+          wenn kein direktes Verschulden vorliegt. Personenschäden oder größere Sachschäden können sehr hohe
+          Forderungen auslösen.
+        </p>
+
+        <h2>Typische Risiken beim Drohnenflug</h2>
+        <p>
+          Häufige Ursachen für Schäden sind technische Defekte, Signalverlust, plötzliches Wetter, Bedienfehler
+          oder Kollisionen. Schon ein Sturz aus geringer Höhe kann erhebliche Folgen haben – etwa an Fahrzeugen,
+          Gebäuden oder bei verletzten Personen. Eine Drohnen-Haftpflichtversicherung übernimmt berechtigte
+          Ansprüche Dritter und schützt den Betreiber vor hohen Kosten.
+        </p>
+
+        <h2>Abgrenzung zur Privathaftpflicht</h2>
+        <p>
+          Viele Drohnenbesitzer vermuten, dass die private Haftpflichtversicherung ausreicht. In der Praxis ist das
+          oft nicht der Fall: Verträge enthalten nicht selten Ausschlüsse oder decken nur sehr leichte Modelle
+          unter engen Voraussetzungen. Drohnen mit Kamera, höherem Gewicht oder erweiterten Funktionen benötigen
+          häufig eine eigenständige Lösung.
+        </p>
+
+        <h2>Kosten und Einflussfaktoren</h2>
+        <p>
+          Die Beitragshöhe richtet sich unter anderem nach Gerät, Gewicht, Nutzungsart und gewünschter Versicherungssumme.
+          Für private Nutzer bleiben die Kosten oft überschaubar – insbesondere im Verhältnis zu den möglichen Schadenssummen.
+        </p>
+        <ul>
+          <li>Gewicht und Bauart der Drohne</li>
+          <li>Private oder gewerbliche Nutzung</li>
+          <li>Versicherungssumme und Selbstbeteiligung</li>
+          <li>Anzahl der versicherten Geräte</li>
+        </ul>
+
+        <h2>Wichtige Hinweise für Betreiber</h2>
+        <p>
+          Vor jedem Flug sollte geprüft werden, ob der Versicherungsschutz aktiv ist und den gesetzlichen Anforderungen entspricht.
+          Darüber hinaus sind Regeln zu Flugzonen, Kennzeichnung sowie möglichen Registrierungs- und Nachweispflichten zu beachten.
+          Diese Punkte tragen wesentlich zu einem rechtssicheren Betrieb bei.
+        </p>
+
+        <hr />
+
+        <h2>Fazit</h2>
+        <p>
+          Eine Drohnen-Versicherung ist für Betreiber in Deutschland unverzichtbar: Sie erfüllt gesetzliche Vorgaben
+          und schützt vor finanziellen Risiken im Schadensfall. Wer seinen Schutz am eigenen Flugprofil ausrichtet,
+          schafft klare Rahmenbedingungen für einen verantwortungsvollen Drohnenbetrieb.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>© <span id="year"></span> — Bài viết dạng tóm lược và giới thiệu chủ đề. Không có link ngoài.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    function copyLink() {
+      const note = document.getElementById("copyNote");
+      const url = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+          note.style.display = "block";
+          setTimeout(() => (note.style.display = "none"), 2000);
+        }).catch(() => fallbackCopy(url));
+      } else {
+        fallbackCopy(url);
+      }
+    }
+
+    function fallbackCopy(text) {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand("copy"); } catch (e) {}
+      document.body.removeChild(ta);
+      const note = document.getElementById("copyNote");
+      note.style.display = "block";
+      setTimeout(() => (note.style.display = "none"), 2000);
+    }
+  </script>
+</body>
+</html>
