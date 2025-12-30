@@ -1,0 +1,77 @@
+
+    :root{
+      --bg:#0b1220;
+      --card:#0f1a2f;
+      --text:#e8eefc;
+      --muted:#b9c4e6;
+      --accent:#7aa2ff;
+      --border:rgba(255,255,255,.10);
+      --radius:14px;
+      --max:900px;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+
+    header, footer{
+      border-bottom:1px solid var(--border);
+      background:rgba(255,255,255,.03);
+    }
+
+    footer{
+      border-top:1px solid var(--border);
+      border-bottom:none;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    .wrap{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:18px 20px;
+    }
+
+    h1{
+      margin:0 0 12px;
+      font-size:22px;
+    }
+
+    select{
+      appearance:none;
+      padding:10px 14px;
+      border-radius:10px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.04);
+      color:var(--text);
+      font-size:14px;
+      cursor:pointer;
+      min-width:240px;
+    }
+
+    select:hover{
+      border-color:var(--accent);
+    }
+
+    main{
+      padding:32px 20px;
+    }
+
+    #screen{
+      max-width:var(--max);
+      margin:0 auto;
+      background:rgba(255,255,255,.03);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:26px 22px;
+      min-height:300px;
+    }
+
+    .placeholder{
+      color:var(--muted);
+      font-size:15px;
+    }
